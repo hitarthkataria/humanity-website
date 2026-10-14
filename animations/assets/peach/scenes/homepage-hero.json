@@ -1,0 +1,9623 @@
+{
+  "version": 1,
+  "name": "OPTIMIZED DESKTOP",
+  "rootId": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+  "cameraId": "4a9122f6-4da9-4c1f-881c-cead86b1e571",
+  "rootTransform": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "background": "#d5ffdd",
+  "environment": {
+    "url": "/assets/peach/media/27186e47cb5fd465ce5127c80cf6d785ec6313a8b4660176df08b888eafc2613.hdr",
+    "type": "hdr",
+    "rotation": 0,
+    "intensity": 3,
+    "blurriness": 0,
+    "opacity": 1
+  },
+  "ambientLight": {
+    "color": "#FFFFFF",
+    "intensity": 1,
+    "visible": true
+  },
+  "effects": {
+    "antialias": true,
+    "bloom": {
+      "strength": 1.2,
+      "radius": 0.25,
+      "threshold": 0.9,
+      "smoothing": 0.025
+    },
+    "grain": {
+      "opacity": 0.15
+    }
+  },
+  "nodes": [
+    {
+      "id": "4a9122f6-4da9-4c1f-881c-cead86b1e571",
+      "parent": "60c4923b-66df-4c8a-af23-fb26a656c5ff",
+      "type": "camera",
+      "name": "Main Camera2",
+      "position": [
+        -158.5363818202602,
+        11.6611100424582,
+        -56.82547476947707
+      ],
+      "rotation": [
+        0,
+        -0.1279289387640743,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": false,
+      "fov": 20,
+      "near": 0.1,
+      "far": 1000,
+      "zoom": 1.4,
+      "cameraType": "perspective",
+      "controls": {
+        "type": "pan",
+        "easingDuration": 0.3,
+        "maxDistance": [
+          0.7,
+          0.7
+        ]
+      }
+    },
+    {
+      "id": "521ac2f8-9003-4044-9971-2f501fe4f01b",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "mesh",
+      "name": "LASER RED",
+      "position": [
+        1.7631188292301831,
+        16.664021545575338,
+        -29.68700489901602
+      ],
+      "rotation": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "scale": [
+        11.198794528817812,
+        1.000000000000001,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true,
+      "geometry": {
+        "width": 1,
+        "height": 1,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "type": "plane"
+      },
+      "materialId": "860fbbd4-050e-4d60-853f-dfa56181c374"
+    },
+    {
+      "id": "60c4923b-66df-4c8a-af23-fb26a656c5ff",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "group",
+      "name": "camgroup",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true
+    },
+    {
+      "id": "8885de3b-83e7-4b3f-9b18-e1c6883bb348",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "light",
+      "name": "Light",
+      "position": [
+        0,
+        10,
+        -10
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "castShadow": true,
+      "receiveShadow": false,
+      "lightType": "directional",
+      "intensity": 2.2,
+      "color": "#FFFFFF",
+      "shadowQuality": 1024
+    },
+    {
+      "id": "d07e1acb-e4bd-4d6a-8117-9a41b49ef271",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "light",
+      "name": "laser",
+      "position": [
+        2.0748924515788296,
+        20.75875085877738,
+        -26.892408351914817
+      ],
+      "rotation": [
+        -0.9013296239519448,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": false,
+      "lightType": "spot",
+      "intensity": 25,
+      "color": "#ffffff",
+      "distance": 3.8,
+      "angle": 0.3455751918948773,
+      "penumbra": 0,
+      "decay": 0,
+      "shadowQuality": 1024,
+      "map": {
+        "url": "/assets/peach/media/e74e059cb1631e46d7a8d797f2d5fde001365888e6b230d59777b7eded40fedf.png",
+        "type": "image",
+        "repeat": [
+          1,
+          1
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "wrapS": "clamp",
+        "wrapT": "clamp"
+      }
+    },
+    {
+      "id": "ea94b165-c53b-4704-87a9-1633ae09cd51",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "camera",
+      "name": "Main Camera",
+      "position": [
+        -158.5363818202602,
+        11.6611100424582,
+        -56.82547476947707
+      ],
+      "rotation": [
+        0,
+        -0.1279289387640743,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": false,
+      "fov": 20,
+      "near": 0.1,
+      "far": 1000,
+      "zoom": 1.4,
+      "cameraType": "perspective",
+      "controls": {
+        "type": "pan",
+        "easingDuration": 0.3,
+        "maxDistance": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "id": "374d817c-152b-4653-8984-5b2bd1b5e890",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "group",
+      "name": "2. for builders",
+      "position": [
+        -124.41243851525537,
+        -56.11974250479096,
+        -200.85154255048144
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true
+    },
+    {
+      "id": "eb473738-b96f-4acf-96f9-7d7cdae6a7de",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "group",
+      "name": "3. for enterprises",
+      "position": [
+        -121.5909710013906,
+        -135.6058710171421,
+        -205.99111974008915
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true
+    },
+    {
+      "id": "af8dcb09-86c9-4c87-bf77-708ed23f4ce0",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "group",
+      "name": "1. for users",
+      "position": [
+        -132.5055458924574,
+        17.481612023833904,
+        -197.73623899944891
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true
+    },
+    {
+      "id": "e76e6324-b23a-4780-835b-ff25791b6d19",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "model",
+      "name": "HumanA1",
+      "position": [
+        -0.48996005912431,
+        -1.70755986968904,
+        -6.2592233807592
+      ],
+      "rotation": [
+        0,
+        -0.6900987954865838,
+        0
+      ],
+      "scale": [
+        11,
+        11,
+        11
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true,
+      "url": "/assets/peach/media/e6ad2a13e89bee026a0b1f4824de8441e276bb1f093319fa186d3da8252f28d7.glb",
+      "materials": [
+        "8fdef3c8-f729-435e-bbbe-15e83409392c"
+      ],
+      "animation": {
+        "clipName": "Pose1",
+        "speed": 1,
+        "loop": true
+      }
+    },
+    {
+      "id": "ce8ea59f-2c5c-4e62-bea3-d74296b4bc6b",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "model",
+      "name": "HumanA2",
+      "position": [
+        -0.48996005912431,
+        -1.70755986968904,
+        -6.2592233807592
+      ],
+      "rotation": [
+        0,
+        -0.6900987954865841,
+        0
+      ],
+      "scale": [
+        11,
+        11,
+        11
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true,
+      "url": "/assets/peach/media/e6ad2a13e89bee026a0b1f4824de8441e276bb1f093319fa186d3da8252f28d7.glb",
+      "materials": [
+        "8fdef3c8-f729-435e-bbbe-15e83409392c"
+      ],
+      "animation": {
+        "clipName": "Pose3",
+        "speed": 1,
+        "loop": true
+      }
+    },
+    {
+      "id": "0d0af1c3-6a7c-4e41-a030-dcf22ba0b5a6",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "model",
+      "name": "HumanA4",
+      "position": [
+        -0.48996005912431,
+        -1.70755986968904,
+        -6.2592233807592
+      ],
+      "rotation": [
+        0,
+        -0.6900987954865841,
+        0
+      ],
+      "scale": [
+        11,
+        11,
+        11
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true,
+      "url": "/assets/peach/media/e6ad2a13e89bee026a0b1f4824de8441e276bb1f093319fa186d3da8252f28d7.glb",
+      "materials": [
+        "8fdef3c8-f729-435e-bbbe-15e83409392c"
+      ],
+      "animation": {
+        "clipName": "Pose2",
+        "speed": 1,
+        "loop": true
+      }
+    },
+    {
+      "id": "3370356f-dbbf-4988-afaf-3e70ec924a8e",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "model",
+      "name": "HumanA3",
+      "position": [
+        -0.48996005912431,
+        -1.70755986968904,
+        -6.2592233807592
+      ],
+      "rotation": [
+        0,
+        -0.6900987954865841,
+        0
+      ],
+      "scale": [
+        11,
+        11,
+        11
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true,
+      "url": "/assets/peach/media/e6ad2a13e89bee026a0b1f4824de8441e276bb1f093319fa186d3da8252f28d7.glb",
+      "materials": [
+        "8fdef3c8-f729-435e-bbbe-15e83409392c"
+      ],
+      "animation": {
+        "clipName": "Pose6",
+        "speed": 1,
+        "loop": true
+      }
+    },
+    {
+      "id": "37f83a07-7a28-4d91-9a32-42db109d37c2",
+      "parent": "4a9122f6-4da9-4c1f-881c-cead86b1e571",
+      "type": "light",
+      "name": "CamSpot",
+      "position": [
+        -13.807722336599221,
+        18.156861517883954,
+        -114.28252702731433
+      ],
+      "rotation": [
+        1.1738376730288078,
+        0.049689937633392765,
+        0.29864164802572335
+      ],
+      "scale": [
+        0.9999999999999999,
+        1,
+        0.9999999999999997
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": false,
+      "lightType": "spot",
+      "intensity": 20,
+      "color": "#8affb9",
+      "distance": 100,
+      "angle": 0.8621926504851988,
+      "penumbra": 0,
+      "decay": 0,
+      "shadowQuality": 1024,
+      "map": {
+        "url": "/assets/peach/media/ac981fe810a4ea4846ceb724fc98afd5381f183e1cc1f772f1ca9a0d8a369e6c.mp4",
+        "type": "video",
+        "loop": true,
+        "repeat": [
+          1,
+          1
+        ],
+        "center": [
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "wrapS": "clamp",
+        "wrapT": "clamp"
+      }
+    },
+    {
+      "id": "54b17c1f-beec-491c-ba74-653e45ac2800",
+      "parent": "eb473738-b96f-4acf-96f9-7d7cdae6a7de",
+      "type": "group",
+      "name": "Group",
+      "position": [
+        -6.376465545345482,
+        -5.514108045745473,
+        -7.603395112637401
+      ],
+      "rotation": [
+        0.4047522487139737,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true
+    },
+    {
+      "id": "eddcde9a-a329-4c30-bb73-9c54d872df08",
+      "parent": "374d817c-152b-4653-8984-5b2bd1b5e890",
+      "type": "group",
+      "name": "Group",
+      "position": [
+        -2.002089198377817,
+        -3.83093716861773,
+        -7.655908809843595
+      ],
+      "rotation": [
+        0.5211696088715556,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true
+    },
+    {
+      "id": "20cb828f-d8b2-4c0f-90ca-99e8c5bc2c84",
+      "parent": "af8dcb09-86c9-4c87-bf77-708ed23f4ce0",
+      "type": "group",
+      "name": "Group",
+      "position": [
+        6.2364720762065815,
+        -4.745642095676175,
+        -25.09859070423363
+      ],
+      "rotation": [
+        0.2859782233236079,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true
+    },
+    {
+      "id": "4d23f574-db1f-488e-8436-3498e6f63965",
+      "parent": "af8dcb09-86c9-4c87-bf77-708ed23f4ce0",
+      "type": "model",
+      "name": "Human-user",
+      "position": [
+        84.54183427206156,
+        -187.0640984547791,
+        -7.0340429777050035
+      ],
+      "rotation": [
+        2.5300364811817233,
+        -1.3265919507368502,
+        2.5441206451249254
+      ],
+      "scale": [
+        100,
+        100,
+        100
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true,
+      "url": "/assets/peach/media/e6ad2a13e89bee026a0b1f4824de8441e276bb1f093319fa186d3da8252f28d7.glb",
+      "materials": [
+        "8fdef3c8-f729-435e-bbbe-15e83409392c"
+      ],
+      "animation": {
+        "clipName": "Pose2",
+        "speed": 1,
+        "loop": true
+      }
+    },
+    {
+      "id": "a2db4eb7-3ce5-47e9-ba59-5483bca86234",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "model",
+      "name": "globehard-logo-op-c",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true,
+      "url": "/assets/peach/media/cac4803f083c29e7295e85df63ac3f247e1a05460d516e19973cd0549affbda2.glb",
+      "materials": [
+        "3888d7b3-e484-418e-b7f5-9e81474e442c"
+      ],
+      "animation": {
+        "clipName": "Scene",
+        "speed": 0.5,
+        "loop": true
+      }
+    },
+    {
+      "id": "5aacbbe9-756a-474e-b180-9c9f88a03e95",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "model",
+      "name": "LOGO-COMP",
+      "position": [
+        1.7811531000493,
+        16.8646216600209,
+        -2.06213397498086
+      ],
+      "rotation": [
+        0,
+        -0.3468409126378884,
+        0
+      ],
+      "scale": [
+        14,
+        14,
+        14
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true,
+      "url": "/assets/peach/media/6cf51665cb8b5a4283b1a5cf22966e793aa40b20f21331771bbbc5b9f5540f70.glb",
+      "materials": [
+        "a8d22c24-ead9-425b-8183-2fbe42dce1c4"
+      ],
+      "animation": {
+        "clipName": "Scene",
+        "speed": 0.8,
+        "loop": true
+      }
+    },
+    {
+      "id": "5d0ef796-f1e1-4bad-8a76-723e07a45a90",
+      "parent": "20cb828f-d8b2-4c0f-90ca-99e8c5bc2c84",
+      "type": "model",
+      "name": "compressed-1748625173530-g3-rotate-op-v1",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        -0.8326940141072857,
+        0
+      ],
+      "scale": [
+        100,
+        100,
+        100
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true,
+      "url": "/assets/peach/media/8be485851931dd798556a698ee54ddccf1f5cccf436bc501679ab9828ef09221.glb",
+      "materials": [
+        "c55d8b1a-5307-406f-8d39-16f3b9257241",
+        "5855a203-6625-4687-8384-cfc5157f03c9",
+        "6105aa84-f178-4191-a01c-40054f627cb3",
+        "5855a203-6625-4687-8384-cfc5157f03c9"
+      ],
+      "animation": {
+        "clipName": "Scene",
+        "speed": 0.5,
+        "loop": true
+      }
+    },
+    {
+      "id": "e5d1c180-124b-473e-b133-10671f3a3c56",
+      "parent": "eddcde9a-a329-4c30-bb73-9c54d872df08",
+      "type": "model",
+      "name": "compressed-1748625401519-g2-rotate-op-v3",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        -1.036505141136865,
+        0
+      ],
+      "scale": [
+        100,
+        99.99999999999999,
+        99.99999999999999
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true,
+      "url": "/assets/peach/media/e4e8b8b92e69fa8566b99f9757d7abf7668afc1ba42f7237e5aea892b0f588e4.glb",
+      "materials": [
+        "5855a203-6625-4687-8384-cfc5157f03c9",
+        "c55d8b1a-5307-406f-8d39-16f3b9257241",
+        "5855a203-6625-4687-8384-cfc5157f03c9",
+        "5855a203-6625-4687-8384-cfc5157f03c9"
+      ],
+      "animation": {
+        "clipName": "Scene",
+        "speed": 0.5,
+        "loop": true
+      }
+    },
+    {
+      "id": "a0d8b55e-7d8a-4432-aa59-a1b9af326ad3",
+      "parent": "54b17c1f-beec-491c-ba74-653e45ac2800",
+      "type": "model",
+      "name": "compressed-1748625652111-g1-rotate-op-v4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        -1.0561383863754286,
+        0
+      ],
+      "scale": [
+        100,
+        100,
+        100
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true,
+      "url": "/assets/peach/media/d52abe0aae2e11f0a1c6cfe8d8a566ee1715f93bda20f23cd5db7306d01295f4.glb",
+      "materials": [
+        "5855a203-6625-4687-8384-cfc5157f03c9",
+        "6105aa84-f178-4191-a01c-40054f627cb3",
+        "6105aa84-f178-4191-a01c-40054f627cb3"
+      ],
+      "animation": {
+        "clipName": "Scene",
+        "speed": 0.5,
+        "loop": true
+      }
+    },
+    {
+      "id": "9f314ceb-de9c-4958-98f6-189f7a9d447a",
+      "parent": "c5d87496-61cc-4219-bb37-63e89dc7475d",
+      "type": "model",
+      "name": "CUBES-90-MESHOPT",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "castShadow": false,
+      "receiveShadow": true,
+      "url": "/assets/peach/media/5f0f98321b6934683bca55d84f17fa76809d35d242cf945c93552d8185d35929.glb",
+      "materials": [
+        "0dffa6fb-d298-4617-a366-a39e9a6f6244"
+      ],
+      "animation": {
+        "clipName": "Scene",
+        "speed": 0.2,
+        "loop": true
+      }
+    }
+  ],
+  "materials": {
+    "6105aa84-f178-4191-a01c-40054f627cb3": {
+      "type": "physical",
+      "name": "New Material",
+      "ior": 1.5,
+      "color": "#004913",
+      "sheen": 0.9661,
+      "opacity": 1,
+      "emissive": "#000000",
+      "alphaTest": 0,
+      "clearcoat": 0,
+      "metalness": 0.3298,
+      "roughness": 0.35,
+      "thickness": 0,
+      "dispersion": 0,
+      "sheenColor": "#d4ff89",
+      "flatShading": false,
+      "iridescence": 0.25420000000000004,
+      "transparent": false,
+      "reflectivity": 0,
+      "transmission": 0,
+      "specularColor": "#FFFFFF",
+      "aoMapIntensity": 1,
+      "iridescenceIOR": 1.75,
+      "sheenRoughness": 0.3925,
+      "attenuationColor": "#FFFFFF",
+      "displacementScale": 1,
+      "emissiveIntensity": 1,
+      "specularIntensity": 1,
+      "clearcoatRoughness": 0,
+      "attenuationDistance": 0,
+      "side": "front"
+    },
+    "860fbbd4-050e-4d60-853f-dfa56181c374": {
+      "type": "standard",
+      "name": "Plane Material",
+      "color": "#ff0000",
+      "opacity": 1,
+      "emissive": "#ff7575",
+      "alphaTest": 0,
+      "metalness": 0,
+      "roughness": 1,
+      "flatShading": false,
+      "transparent": true,
+      "aoMapIntensity": 1,
+      "displacementScale": 1,
+      "emissiveIntensity": 1,
+      "side": "front",
+      "textures": {
+        "alphaMap": {
+          "url": "/assets/peach/media/d3f6f0a232a64b52f0ede43ce37f443560ee50293f9e5d62be91226928fcced8.jpg",
+          "type": "image",
+          "repeat": [
+            1,
+            1
+          ],
+          "center": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "wrapS": "clamp",
+          "wrapT": "clamp"
+        }
+      }
+    },
+    "8fdef3c8-f729-435e-bbbe-15e83409392c": {
+      "type": "physical",
+      "name": "Main",
+      "ior": 1.5,
+      "color": "#45ff67",
+      "sheen": 1,
+      "opacity": 1,
+      "emissive": "#94ff95",
+      "alphaTest": 0,
+      "clearcoat": 0,
+      "metalness": 0.1008,
+      "roughness": 0.41,
+      "thickness": 0,
+      "dispersion": 0,
+      "sheenColor": "#ff9900",
+      "flatShading": false,
+      "iridescence": 1,
+      "transparent": false,
+      "reflectivity": 0,
+      "transmission": 0,
+      "specularColor": "#FFFFFF",
+      "iridescenceIOR": 1.5,
+      "sheenRoughness": 0.5347,
+      "attenuationColor": "#FFFFFF",
+      "displacementScale": 1,
+      "emissiveIntensity": 1,
+      "specularIntensity": 0,
+      "clearcoatRoughness": 0,
+      "attenuationDistance": 0,
+      "side": "front",
+      "textures": {
+        "emissiveMap": {
+          "url": "/assets/peach/media/ac981fe810a4ea4846ceb724fc98afd5381f183e1cc1f772f1ca9a0d8a369e6c.mp4",
+          "type": "video",
+          "loop": true,
+          "repeat": [
+            1,
+            1
+          ],
+          "center": [
+            0,
+            0
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "wrapS": "clamp",
+          "wrapT": "clamp"
+        }
+      }
+    },
+    "d3a66909-3a1b-4808-909a-0569d46d8e8b": {
+      "type": "standard",
+      "name": "New Material",
+      "ior": 1.5,
+      "color": "#ccff00",
+      "sheen": 0,
+      "opacity": 1,
+      "emissive": "#000000",
+      "alphaTest": 0,
+      "clearcoat": 0,
+      "metalness": 0,
+      "roughness": 1,
+      "thickness": 0,
+      "dispersion": 0,
+      "sheenColor": "#003dff",
+      "flatShading": false,
+      "iridescence": 1,
+      "transparent": false,
+      "reflectivity": 0,
+      "transmission": 0,
+      "specularColor": "#FFFFFF",
+      "iridescenceIOR": 1,
+      "sheenRoughness": 0,
+      "attenuationColor": "#FFFFFF",
+      "displacementScale": 1,
+      "emissiveIntensity": 1,
+      "specularIntensity": 1,
+      "clearcoatRoughness": 0,
+      "attenuationDistance": 0,
+      "side": "front"
+    },
+    "5855a203-6625-4687-8384-cfc5157f03c9": {
+      "type": "standard",
+      "name": "Solid Green",
+      "color": "#72ff80",
+      "opacity": 1,
+      "emissive": "#000000",
+      "alphaTest": 0,
+      "metalness": 0.1707,
+      "roughness": 0.5129,
+      "flatShading": false,
+      "transparent": false,
+      "aoMapIntensity": 1,
+      "displacementScale": 1,
+      "emissiveIntensity": 1,
+      "side": "front"
+    },
+    "c55d8b1a-5307-406f-8d39-16f3b9257241": {
+      "type": "standard",
+      "name": "Orange",
+      "color": "#ff8757",
+      "opacity": 1,
+      "emissive": "#000000",
+      "alphaTest": 0,
+      "metalness": 0.5244,
+      "roughness": 0.29760000000000003,
+      "flatShading": false,
+      "transparent": false,
+      "aoMapIntensity": 1,
+      "displacementScale": 1,
+      "emissiveIntensity": 1,
+      "side": "front"
+    },
+    "3888d7b3-e484-418e-b7f5-9e81474e442c": {
+      "type": "physical",
+      "name": "Globe_Icon_hard",
+      "ior": 1.5,
+      "color": "#79ff52",
+      "sheen": 0.85,
+      "opacity": 1,
+      "emissive": "#000000",
+      "alphaTest": 0,
+      "clearcoat": 0,
+      "metalness": 0,
+      "roughness": 0.78,
+      "thickness": 0,
+      "dispersion": 0,
+      "sheenColor": "#bfffff",
+      "flatShading": false,
+      "iridescence": 1,
+      "transparent": false,
+      "reflectivity": 0,
+      "transmission": 0,
+      "specularColor": "#FFFFFF",
+      "aoMapIntensity": 1,
+      "iridescenceIOR": 2.16,
+      "sheenRoughness": 0.16,
+      "attenuationColor": "#FFFFFF",
+      "displacementScale": 1,
+      "emissiveIntensity": 1,
+      "specularIntensity": 1,
+      "clearcoatRoughness": 0,
+      "attenuationDistance": 0,
+      "side": "front",
+      "textures": {
+        "roughnessMap": {
+          "type": "embedded"
+        },
+        "normalMap": {
+          "type": "embedded"
+        },
+        "metalnessMap": {
+          "type": "embedded"
+        }
+      },
+      "overrideIndex": 0
+    },
+    "a8d22c24-ead9-425b-8183-2fbe42dce1c4": {
+      "type": "physical",
+      "name": "Orange",
+      "ior": 1.5,
+      "color": "#cc4b00",
+      "sheen": 0.47,
+      "opacity": 1,
+      "emissive": "#000000",
+      "alphaTest": 0,
+      "clearcoat": 0,
+      "metalness": 0.61,
+      "roughness": 0.25,
+      "thickness": 0,
+      "dispersion": 0,
+      "sheenColor": "#FFFFFF",
+      "flatShading": false,
+      "iridescence": 1,
+      "transparent": false,
+      "reflectivity": 0,
+      "transmission": 0,
+      "specularColor": "#FFFFFF",
+      "aoMapIntensity": 1,
+      "iridescenceIOR": 1.5,
+      "sheenRoughness": 0.23,
+      "attenuationColor": "#FFFFFF",
+      "displacementScale": 1,
+      "emissiveIntensity": 1,
+      "specularIntensity": 0.31,
+      "clearcoatRoughness": 0,
+      "attenuationDistance": 0,
+      "side": "front"
+    },
+    "0dffa6fb-d298-4617-a366-a39e9a6f6244": {
+      "type": "physical",
+      "name": "Solid Green",
+      "ior": 1.5,
+      "color": "#45ff67",
+      "sheen": 1,
+      "opacity": 1,
+      "emissive": "#94ff95",
+      "alphaTest": 0,
+      "clearcoat": 0,
+      "metalness": 0.1,
+      "roughness": 0.41,
+      "thickness": 0,
+      "dispersion": 0,
+      "sheenColor": "#ff9900",
+      "flatShading": false,
+      "iridescence": 1,
+      "transparent": false,
+      "reflectivity": 0,
+      "transmission": 0,
+      "specularColor": "#FFFFFF",
+      "aoMapIntensity": 1,
+      "iridescenceIOR": 1.5,
+      "sheenRoughness": 0.53,
+      "attenuationColor": "#FFFFFF",
+      "displacementScale": 1,
+      "emissiveIntensity": 1,
+      "specularIntensity": 1,
+      "clearcoatRoughness": 0,
+      "attenuationDistance": 0,
+      "side": "front"
+    }
+  },
+  "tracks": [
+    {
+      "target": "4a9122f6-4da9-4c1f-881c-cead86b1e571",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.4403306583394744,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.449219813662838,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.507,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.55,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6895664507900123,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.69,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.698458866919778,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4a9122f6-4da9-4c1f-881c-cead86b1e571",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.4403306583394744,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.449219813662838,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.507,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.55,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6895664507900123,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.69,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.698458866919778,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4a9122f6-4da9-4c1f-881c-cead86b1e571",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.4403306583394744,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.449219813662838,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.507,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.55,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6895664507900123,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.69,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.698458866919778,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4a9122f6-4da9-4c1f-881c-cead86b1e571",
+      "path": [
+        "position",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": -1.691167414444001,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.313,
+          "value": -5.486058193094141,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3952594490711082,
+          "value": -5.486058193094141,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": -29.494378698101137,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.443,
+          "value": -25.603987645308997,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4492198136628379,
+          "value": -160.85075618576224,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.449219813662838,
+          "value": -160.85075618576224,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46038463508196015,
+          "value": -160.85075618576224,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4834240768727168,
+          "value": -160.85075618576224,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.507,
+          "value": -160.85075618576224,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5695188330381754,
+          "value": -160.85075618576224,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6236817312831121,
+          "value": -160.85075618576224,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6895664507900123,
+          "value": -16.56180419694562,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.698458866919778,
+          "value": -6.860535512133708,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4a9122f6-4da9-4c1f-881c-cead86b1e571",
+      "path": [
+        "position",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 5.863597712252766,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.314,
+          "value": 5.861299803281028,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3962594490711082,
+          "value": 5.861299803281028,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": 2.4575158192305704,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.443,
+          "value": 2.4575158192305704,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4492198136628379,
+          "value": 0.3416674455696187,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.449219813662838,
+          "value": 33.052299004645505,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46038463508196015,
+          "value": 0.3416674455696187,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4834240768727168,
+          "value": 0.3416674455696187,
+          "handles": [
+            1,
+            1,
+            0.42,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.507,
+          "value": -70.52608991731424,
+          "handles": [
+            0.58,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5299999999999999,
+          "value": -70.52608991731424,
+          "handles": [
+            1,
+            1,
+            0.42,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.55,
+          "value": -150.37814830359272,
+          "handles": [
+            0.58,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5690786082872068,
+          "value": -150.37814830359272,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6231827837900827,
+          "value": -150.37814830359272,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6895664507900123,
+          "value": 5.20215595220021,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.698458866919778,
+          "value": 6.702500736110025,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4a9122f6-4da9-4c1f-881c-cead86b1e571",
+      "path": [
+        "position",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 33.786227213694474,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.313,
+          "value": 26.7856856736871,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3952594490711082,
+          "value": 26.7856856736871,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": 147.0607573757501,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.443,
+          "value": 123.97457803659466,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4492198136628379,
+          "value": -48.47602412229987,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.449219813662838,
+          "value": -48.47602412229987,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46038463508196015,
+          "value": -48.47602412229987,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4834240768727168,
+          "value": -48.47602412229987,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.507,
+          "value": -48.47602412229987,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5695188330381754,
+          "value": -48.47602412229987,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6236817312831121,
+          "value": -48.47602412229987,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6895664507900123,
+          "value": 35.727584564410336,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.698458866919778,
+          "value": 22.17093195969105,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4a9122f6-4da9-4c1f-881c-cead86b1e571",
+      "path": [
+        "rotation",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.31326073030108903,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3952594490711083,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4403306583394744,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.449219813662838,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46038463508196015,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.507,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5072719201298156,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.55,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6230000063265455,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6895664507900123,
+          "value": 0.11022365748220632,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.698458866919778,
+          "value": 0.11022365748220632,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4a9122f6-4da9-4c1f-881c-cead86b1e571",
+      "path": [
+        "rotation",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": -0.0024647387712653512,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.31326073030108903,
+          "value": -0.4990855381606192,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3952594490711083,
+          "value": -0.4990855381606192,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": -0.20294866384937085,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4403306583394744,
+          "value": -0.16694750655284216,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": -0.16559386943273208,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.449219813662838,
+          "value": -0.1543137730758427,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46038463508196015,
+          "value": -0.13844577705175057,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.507,
+          "value": -0.13844577705175057,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5072719201298156,
+          "value": -0.13844577705175057,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.55,
+          "value": -0.13844577705175057,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6230000063265455,
+          "value": -0.13844577705175057,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6895664507900123,
+          "value": -0.6182476104555036,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.698458866919778,
+          "value": -0.6182476104555036,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4a9122f6-4da9-4c1f-881c-cead86b1e571",
+      "path": [
+        "rotation",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.31326073030108903,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3952594490711083,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4403306583394744,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.449219813662838,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46038463508196015,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.507,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5072719201298156,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.55,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6230000063265455,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6895664507900123,
+          "value": 0.06354849154738293,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.698458866919778,
+          "value": 0.06354849154738293,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "521ac2f8-9003-4044-9971-2f501fe4f01b",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.31108986173612113,
+          "value": 11.198794528817812,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.393,
+          "value": 11.198794528817812,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "521ac2f8-9003-4044-9971-2f501fe4f01b",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.31108986173612113,
+          "value": 1.000000000000001,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.393,
+          "value": 1.000000000000001,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "521ac2f8-9003-4044-9971-2f501fe4f01b",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.31108986173612113,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.393,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "521ac2f8-9003-4044-9971-2f501fe4f01b",
+      "path": [
+        "position",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.30699999999999994,
+          "value": 1.7631188292301831,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.40299999999999997,
+          "value": 1.7631188292301831,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "521ac2f8-9003-4044-9971-2f501fe4f01b",
+      "path": [
+        "position",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.30699999999999994,
+          "value": 17.2804668639421,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.40299999999999997,
+          "value": 16,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "521ac2f8-9003-4044-9971-2f501fe4f01b",
+      "path": [
+        "position",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.30699999999999994,
+          "value": -29.68700489901602,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.40299999999999997,
+          "value": -29.68700489901602,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "521ac2f8-9003-4044-9971-2f501fe4f01b",
+      "path": [
+        "rotation",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.31108986173612113,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.393,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "521ac2f8-9003-4044-9971-2f501fe4f01b",
+      "path": [
+        "rotation",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.31108986173612113,
+          "value": 3.141592653589793,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.393,
+          "value": 3.141592653589793,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "521ac2f8-9003-4044-9971-2f501fe4f01b",
+      "path": [
+        "rotation",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.31108986173612113,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.393,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "60c4923b-66df-4c8a-af23-fb26a656c5ff",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "60c4923b-66df-4c8a-af23-fb26a656c5ff",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "60c4923b-66df-4c8a-af23-fb26a656c5ff",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "60c4923b-66df-4c8a-af23-fb26a656c5ff",
+      "path": [
+        "position",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0.0779333396914863,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": 0.0779333396914863,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": 0.0779333396914863,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4501722231617698,
+          "value": 0.0779333396914863,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "60c4923b-66df-4c8a-af23-fb26a656c5ff",
+      "path": [
+        "position",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 10.820347342850583,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": 10.820347342850583,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": 10.820347342850583,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4501722231617698,
+          "value": 10.820347342850583,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "60c4923b-66df-4c8a-af23-fb26a656c5ff",
+      "path": [
+        "position",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": -9.657357137585665,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": -9.657357137585665,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": -9.657357137585665,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4501722231617698,
+          "value": -9.657357137585665,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "60c4923b-66df-4c8a-af23-fb26a656c5ff",
+      "path": [
+        "rotation",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.31326073030108903,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.395,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4501722231617698,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "60c4923b-66df-4c8a-af23-fb26a656c5ff",
+      "path": [
+        "rotation",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.31326073030108903,
+          "value": 3.141592653589793,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.395,
+          "value": 3.141592653589793,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": 6.288907618214436,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": 7.5195987741699755,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4501722231617698,
+          "value": 6.288907618214436,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "60c4923b-66df-4c8a-af23-fb26a656c5ff",
+      "path": [
+        "rotation",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.31326073030108903,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.395,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.415,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4412830678384062,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4501722231617698,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d07e1acb-e4bd-4d6a-8117-9a41b49ef271",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3130630621923164,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3893963397021713,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d07e1acb-e4bd-4d6a-8117-9a41b49ef271",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3130630621923164,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3893963397021713,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d07e1acb-e4bd-4d6a-8117-9a41b49ef271",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3130630621923164,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3893963397021713,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d07e1acb-e4bd-4d6a-8117-9a41b49ef271",
+      "path": [
+        "position",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": -0.8537327139035322,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3130630621923164,
+          "value": -1.799447702425494,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3893963397021713,
+          "value": -1.799447702425494,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d07e1acb-e4bd-4d6a-8117-9a41b49ef271",
+      "path": [
+        "position",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 20.419266829924,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3130630621923164,
+          "value": 19.005303621969333,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3893963397021713,
+          "value": 16.951941261677614,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d07e1acb-e4bd-4d6a-8117-9a41b49ef271",
+      "path": [
+        "position",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": -28.029218237080453,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3130630621923164,
+          "value": -24.555903919906655,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3893963397021713,
+          "value": -26.18090719450512,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d07e1acb-e4bd-4d6a-8117-9a41b49ef271",
+      "path": [
+        "rotation",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": -0.9013296239519448,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3130630621923164,
+          "value": -0.9013296239519448,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3893963397021713,
+          "value": -0.9013296239519448,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d07e1acb-e4bd-4d6a-8117-9a41b49ef271",
+      "path": [
+        "rotation",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3130630621923164,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3893963397021713,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d07e1acb-e4bd-4d6a-8117-9a41b49ef271",
+      "path": [
+        "rotation",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3130630621923164,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3893963397021713,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "ior"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 1.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "color"
+      ],
+      "keys": [
+        {
+          "time": 0.2640694139854772,
+          "value": {
+            "a": 1,
+            "b": 0.09803921568627452,
+            "g": 1,
+            "r": 0.8627450980392157
+          },
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.33261509165830316,
+          "value": {
+            "a": 1,
+            "b": 0.3686274509803922,
+            "g": 1,
+            "r": 0.8745098039215686
+          },
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "sheen"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "opacity"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "emissive"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": {
+            "a": 1,
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "clearcoat"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "metalness"
+      ],
+      "keys": [
+        {
+          "time": 0.2640694139854772,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.33261509165830316,
+          "value": 0.4924,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "roughness"
+      ],
+      "keys": [
+        {
+          "time": 0.2640694139854772,
+          "value": 0.5489999999999999,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.33261509165830316,
+          "value": 0.1939,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "thickness"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "dispersion"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "sheenColor"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": {
+            "a": 1,
+            "b": 1,
+            "g": 0.2392156862745098,
+            "r": 0
+          },
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "iridescence"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "reflectivity"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "transmission"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "specularColor"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "iridescenceIOR"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 1.41,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "sheenRoughness"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 0.3475,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "attenuationColor"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "displacementScale"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "emissiveIntensity"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "specularIntensity"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "clearcoatRoughness"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "d3a66909-3a1b-4808-909a-0569d46d8e8b",
+      "path": [
+        "attenuationDistance"
+      ],
+      "keys": [
+        {
+          "time": 0.33261509165830316,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ea94b165-c53b-4704-87a9-1633ae09cd51",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.41509810688620485,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.43911032131875694,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4601993096464766,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5305126118795769,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.550000004807879,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5687960687960688,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6265356265356264,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.691,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ea94b165-c53b-4704-87a9-1633ae09cd51",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.41509810688620485,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.43911032131875694,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4601993096464766,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5305126118795769,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.550000004807879,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5687960687960688,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6265356265356264,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.691,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ea94b165-c53b-4704-87a9-1633ae09cd51",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.41509810688620485,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.43911032131875694,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4601993096464766,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5305126118795769,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.550000004807879,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5687960687960688,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6265356265356264,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.691,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ea94b165-c53b-4704-87a9-1633ae09cd51",
+      "path": [
+        "position",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": -1.745086386163638,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.19928926851877377,
+          "value": -1.745086386163638,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3132507155152372,
+          "value": 4.955198855241388,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.395,
+          "value": 4.955198855241388,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.41509810688620485,
+          "value": -21.526943571723855,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4390350877192982,
+          "value": -21.526943571723855,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4599999954381563,
+          "value": -158.5363818202602,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.48244924305020664,
+          "value": -158.5363818202602,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5687960687960688,
+          "value": -158.5363818202602,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6265356265356264,
+          "value": -158.5363818202602,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6489999999999999,
+          "value": -158.5363818202602,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.691,
+          "value": -6.473376447921844,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ea94b165-c53b-4704-87a9-1633ae09cd51",
+      "path": [
+        "position",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 16.6479803663056,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.19928926851877377,
+          "value": 16.6479803663056,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3132507155152372,
+          "value": 17.4494497505289,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.395,
+          "value": 17.4494497505289,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.41509810688620485,
+          "value": 11.6611100424582,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4390350877192982,
+          "value": 11.6611100424582,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4599999954381563,
+          "value": 11.6611100424582,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.48244924305020664,
+          "value": 11.6611100424582,
+          "handles": [
+            1,
+            1,
+            0.42,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.507,
+          "value": -184.8890412014036,
+          "handles": [
+            0.58,
+            1,
+            0.42,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.529,
+          "value": -184.8890412014036,
+          "handles": [
+            0.58,
+            1,
+            0.42,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.550000004807879,
+          "value": -294.69410058167864,
+          "handles": [
+            0.58,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5687960687960688,
+          "value": -294.694100581679,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6265356265356264,
+          "value": -294.694100581679,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6489999999999999,
+          "value": -294.694100581679,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6640049140049141,
+          "value": -294.694100581679,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.691,
+          "value": 17.538398435151546,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ea94b165-c53b-4704-87a9-1633ae09cd51",
+      "path": [
+        "position",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 24.005351399986097,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.19928926851877377,
+          "value": 19.137640224359885,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3132507155152372,
+          "value": -36.46079930128117,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.395,
+          "value": -36.4607993012812,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.41509810688620485,
+          "value": 152.74120262285288,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4390350877192982,
+          "value": 152.74120262285288,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4599999954381563,
+          "value": -56.82547476947707,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.48244924305020664,
+          "value": -56.82547476947707,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5687960687960688,
+          "value": -56.8254747694771,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6265356265356264,
+          "value": -56.8254747694771,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6489999999999999,
+          "value": -56.8254747694771,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.691,
+          "value": 12.367483721404652,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ea94b165-c53b-4704-87a9-1633ae09cd51",
+      "path": [
+        "rotation",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.19928926851877377,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3132507155152372,
+          "value": 3.203580599327978,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.395,
+          "value": 3.203580599327978,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.41509810688620485,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4390350877192982,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4601993096464766,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5305126118795769,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.550000004807879,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5687960687960688,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6265356265356264,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.691,
+          "value": 0.10791327942363212,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ea94b165-c53b-4704-87a9-1633ae09cd51",
+      "path": [
+        "rotation",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.19928926851877377,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3132507155152372,
+          "value": 0.4590388850457128,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.395,
+          "value": 0.4590388850457128,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.41509810688620485,
+          "value": -0.12792893876407435,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4390350877192982,
+          "value": -0.12792893876407435,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4601993096464766,
+          "value": -0.1279289387640743,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5305126118795769,
+          "value": -0.1279289387640743,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.550000004807879,
+          "value": -0.1279289387640743,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5687960687960688,
+          "value": -0.1279289387640743,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6265356265356264,
+          "value": -0.1279289387640743,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.691,
+          "value": -0.6144803488531247,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ea94b165-c53b-4704-87a9-1633ae09cd51",
+      "path": [
+        "rotation",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.19928926851877377,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.3132507155152372,
+          "value": -3.1625346859191117,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.395,
+          "value": -3.1625346859191033,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.41509810688620485,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4390350877192982,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4601993096464766,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5305126118795769,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.550000004807879,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5687960687960688,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6265356265356264,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.691,
+          "value": 0.06237728403400868,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "374d817c-152b-4653-8984-5b2bd1b5e890",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.4951632678785672,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5070963087282379,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5291087141790867,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5401149169045111,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "374d817c-152b-4653-8984-5b2bd1b5e890",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.4951632678785672,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5070963087282379,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5291087141790867,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5401149169045111,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "374d817c-152b-4653-8984-5b2bd1b5e890",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.4951632678785672,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5070963087282379,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5291087141790867,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5401149169045111,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "eb473738-b96f-4acf-96f9-7d7cdae6a7de",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.449219813662838,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5401149169045111,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.55,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "eb473738-b96f-4acf-96f9-7d7cdae6a7de",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.449219813662838,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5401149169045111,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.55,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "eb473738-b96f-4acf-96f9-7d7cdae6a7de",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.449219813662838,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5401149169045111,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.55,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "af8dcb09-86c9-4c87-bf77-708ed23f4ce0",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.45,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.45103668261562996,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46004784688995215,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4820716793735887,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4951632678785672,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "af8dcb09-86c9-4c87-bf77-708ed23f4ce0",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.45,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.45103668261562996,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46004784688995215,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4820716793735887,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4951632678785672,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "af8dcb09-86c9-4c87-bf77-708ed23f4ce0",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.45,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.45103668261562996,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46004784688995215,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4820716793735887,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4951632678785672,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "e76e6324-b23a-4780-835b-ff25791b6d19",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.23714996523402115,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.2412770730627257,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "e76e6324-b23a-4780-835b-ff25791b6d19",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.23714996523402115,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.2412770730627257,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "e76e6324-b23a-4780-835b-ff25791b6d19",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.23714996523402115,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.2412770730627257,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ce8ea59f-2c5c-4e62-bea3-d74296b4bc6b",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.07206565208584044,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.09016143256554486,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.39999999999999997,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.40413909738006554,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ce8ea59f-2c5c-4e62-bea3-d74296b4bc6b",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.07206565208584044,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.09016143256554486,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.39999999999999997,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.40413909738006554,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ce8ea59f-2c5c-4e62-bea3-d74296b4bc6b",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.07206565208584044,
+          "value": 0.5,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.09016143256554486,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.39999999999999997,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.40413909738006554,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ce8ea59f-2c5c-4e62-bea3-d74296b4bc6b",
+      "path": [
+        "position",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0.46200999715352,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.09016143256554486,
+          "value": 3.35376267718434,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.1200035968654083,
+          "value": 1.88710363749073,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.23810237473295298,
+          "value": 0.46200999715352,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ce8ea59f-2c5c-4e62-bea3-d74296b4bc6b",
+      "path": [
+        "position",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": -1.70755986968904,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.09016143256554486,
+          "value": -1.70755986968904,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.1200035968654083,
+          "value": -1.70755986968904,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.23810237473295298,
+          "value": -1.70755986968904,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ce8ea59f-2c5c-4e62-bea3-d74296b4bc6b",
+      "path": [
+        "position",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": -18.8770359206831,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.09016143256554486,
+          "value": -35.8187669053061,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.1200035968654083,
+          "value": -27.2261431072053,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.23810237473295298,
+          "value": -18.8770359206831,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ce8ea59f-2c5c-4e62-bea3-d74296b4bc6b",
+      "path": [
+        "rotation",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.09016143256554486,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.1200035968654083,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.23810237473295298,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ce8ea59f-2c5c-4e62-bea3-d74296b4bc6b",
+      "path": [
+        "rotation",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 3.065381573986993,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.09016143256554486,
+          "value": 2.9956356460230924,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.1200035968654083,
+          "value": 2.972550726097393,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.23810237473295298,
+          "value": 2.881193378103396,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "ce8ea59f-2c5c-4e62-bea3-d74296b4bc6b",
+      "path": [
+        "rotation",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.09016143256554486,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.1200035968654083,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.23810237473295298,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "0d0af1c3-6a7c-4e41-a030-dcf22ba0b5a6",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.4852060351342771,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4909999865740455,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6574800240959275,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7124023052009953,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "0d0af1c3-6a7c-4e41-a030-dcf22ba0b5a6",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.4852060351342771,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4909999865740455,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6574800240959275,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7124023052009953,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "0d0af1c3-6a7c-4e41-a030-dcf22ba0b5a6",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.4852060351342771,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4909999865740455,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6574800240959275,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7124023052009953,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "0d0af1c3-6a7c-4e41-a030-dcf22ba0b5a6",
+      "path": [
+        "rotation",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.5999999999999999,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7124023052009953,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "0d0af1c3-6a7c-4e41-a030-dcf22ba0b5a6",
+      "path": [
+        "rotation",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.5999999999999999,
+          "value": 0.3481314059643964,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7124023052009953,
+          "value": 0.3481314059643964,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "0d0af1c3-6a7c-4e41-a030-dcf22ba0b5a6",
+      "path": [
+        "rotation",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.4003294593843383,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5999999999999999,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7124023052009953,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "0d0af1c3-6a7c-4e41-a030-dcf22ba0b5a6",
+      "path": [
+        "position",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.4003294593843383,
+          "value": -0.48996005912431,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4111234337055655,
+          "value": -0.48996005912431,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7124023052009953,
+          "value": -0.48996005912431,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "0d0af1c3-6a7c-4e41-a030-dcf22ba0b5a6",
+      "path": [
+        "position",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.4003294593843383,
+          "value": -1.70755986968904,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4111234337055655,
+          "value": -1.70755986968904,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7124023052009953,
+          "value": -2.07439629541794,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "0d0af1c3-6a7c-4e41-a030-dcf22ba0b5a6",
+      "path": [
+        "position",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.4003294593843383,
+          "value": -6.2592233807592,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4111234337055655,
+          "value": -6.2592233807592,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7124023052009953,
+          "value": -6.2592233807592,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "3370356f-dbbf-4988-afaf-3e70ec924a8e",
+      "path": [
+        "position",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.39810717055349737,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.41429813203533816,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.426,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4430622009569378,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "3370356f-dbbf-4988-afaf-3e70ec924a8e",
+      "path": [
+        "position",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.39810717055349737,
+          "value": -38.4924395284283,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.41429813203533816,
+          "value": -0.95530497399156,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.426,
+          "value": -0.95530497399156,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4430622009569378,
+          "value": 36.301897664591266,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "3370356f-dbbf-4988-afaf-3e70ec924a8e",
+      "path": [
+        "position",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.39810717055349737,
+          "value": -6.20205636453566,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.41429813203533816,
+          "value": -6.20205636453566,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.426,
+          "value": -6.20205636453566,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4430622009569378,
+          "value": -6.20205636453566,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "3370356f-dbbf-4988-afaf-3e70ec924a8e",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.39810717055349737,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.41429813203533816,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4430622009569378,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.47937944779567865,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4812842667935423,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "3370356f-dbbf-4988-afaf-3e70ec924a8e",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.39810717055349737,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.41429813203533816,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4430622009569378,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.47937944779567865,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4812842667935423,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "3370356f-dbbf-4988-afaf-3e70ec924a8e",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.39810717055349737,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.41429813203533816,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4430622009569378,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.47937944779567865,
+          "value": 11,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4812842667935423,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "3370356f-dbbf-4988-afaf-3e70ec924a8e",
+      "path": [
+        "rotation",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.39810717055349737,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4430622009569378,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "3370356f-dbbf-4988-afaf-3e70ec924a8e",
+      "path": [
+        "rotation",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.39810717055349737,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4430622009569378,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "3370356f-dbbf-4988-afaf-3e70ec924a8e",
+      "path": [
+        "rotation",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.39810717055349737,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4430622009569378,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "37f83a07-7a28-4d91-9a32-42db109d37c2",
+      "path": [
+        "position",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.40099998741856957,
+          "value": -0.1976944432463571,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4133457225364064,
+          "value": -4.34140072508042,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.43937824884054255,
+          "value": -4.34140072508042,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4593788483181106,
+          "value": -7.188243593790721,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6480313281919415,
+          "value": -7.188243593790721,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6620000008429414,
+          "value": -5.78146610021565,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "37f83a07-7a28-4d91-9a32-42db109d37c2",
+      "path": [
+        "position",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.40099998741856957,
+          "value": 4.190937606167135,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4133457225364064,
+          "value": 14.153105928743102,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.43937824884054255,
+          "value": 14.153105928743102,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4593788483181106,
+          "value": 16.26812252348069,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6480313281919415,
+          "value": 16.2681225234807,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6620000008429414,
+          "value": 10.270631635485591,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "37f83a07-7a28-4d91-9a32-42db109d37c2",
+      "path": [
+        "position",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.40099998741856957,
+          "value": -1.6665863393803901,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4133457225364064,
+          "value": -103.55800707196751,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.43937824884054255,
+          "value": -103.55800707196751,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4593788483181106,
+          "value": -122.65529075056229,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6480313281919415,
+          "value": -122.65529075056229,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6620000008429414,
+          "value": 14.198261620842544,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "37f83a07-7a28-4d91-9a32-42db109d37c2",
+      "path": [
+        "rotation",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.38509090740142926,
+          "value": 1.1923050900758223,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4133457225364064,
+          "value": 1.1923050900758223,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4593788483181106,
+          "value": 1.1923050900758223,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7095450767041999,
+          "value": 1.1923050900758223,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "37f83a07-7a28-4d91-9a32-42db109d37c2",
+      "path": [
+        "rotation",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.38509090740142926,
+          "value": 1.3999492394962614e-16,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4133457225364064,
+          "value": 1.3999492394962614e-16,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4593788483181106,
+          "value": 1.3999492394962614e-16,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7095450767041999,
+          "value": 1.3999492394962614e-16,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "37f83a07-7a28-4d91-9a32-42db109d37c2",
+      "path": [
+        "rotation",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.38509090740142926,
+          "value": 2.06329000453517e-16,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4133457225364064,
+          "value": 2.06329000453517e-16,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4593788483181106,
+          "value": 2.06329000453517e-16,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7095450767041999,
+          "value": 2.06329000453517e-16,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "37f83a07-7a28-4d91-9a32-42db109d37c2",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.38509090740142926,
+          "value": 0.9999999999999999,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4133457225364064,
+          "value": 0.9999999999999999,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4593788483181106,
+          "value": 0.9999999999999999,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7095450767041999,
+          "value": 0.9999999999999999,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "37f83a07-7a28-4d91-9a32-42db109d37c2",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.38509090740142926,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4133457225364064,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4593788483181106,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7095450767041999,
+          "value": 1,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "37f83a07-7a28-4d91-9a32-42db109d37c2",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.38509090740142926,
+          "value": 0.9999999999999997,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4133457225364064,
+          "value": 0.9999999999999997,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4593788483181106,
+          "value": 0.9999999999999997,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7095450767041999,
+          "value": 0.9999999999999997,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4d23f574-db1f-488e-8436-3498e6f63965",
+      "path": [
+        "position",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.4957446808510638,
+          "value": 84.54183427206156,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5063829787234042,
+          "value": 135.31376728438232,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4d23f574-db1f-488e-8436-3498e6f63965",
+      "path": [
+        "position",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.4957446808510638,
+          "value": -187.064098454779,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5063829787234042,
+          "value": -179.8004968590258,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4d23f574-db1f-488e-8436-3498e6f63965",
+      "path": [
+        "position",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.4957446808510638,
+          "value": -7.0340429777050035,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5063829787234042,
+          "value": 3.324215412904903,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4d23f574-db1f-488e-8436-3498e6f63965",
+      "path": [
+        "rotation",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.4957446808510638,
+          "value": 2.5300364811817233,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5063829787234042,
+          "value": 2.5300364811817233,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4d23f574-db1f-488e-8436-3498e6f63965",
+      "path": [
+        "rotation",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.4957446808510638,
+          "value": -1.3265919507368495,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5063829787234042,
+          "value": -1.3265919507368495,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4d23f574-db1f-488e-8436-3498e6f63965",
+      "path": [
+        "rotation",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.4957446808510638,
+          "value": 2.5441206451249254,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5063829787234042,
+          "value": 2.5441206451249254,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4d23f574-db1f-488e-8436-3498e6f63965",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.4957446808510638,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.49858156028368794,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5063829787234042,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5078014184397163,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4d23f574-db1f-488e-8436-3498e6f63965",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.4957446808510638,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.49858156028368794,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5063829787234042,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5078014184397163,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "4d23f574-db1f-488e-8436-3498e6f63965",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.4957446808510638,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.49858156028368794,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5063829787234042,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5078014184397163,
+          "value": 0.01,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "a2db4eb7-3ce5-47e9-ba59-5483bca86234",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.6957831325301205,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.708,
+          "value": 9,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "a2db4eb7-3ce5-47e9-ba59-5483bca86234",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.6957831325301205,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.708,
+          "value": 9,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "a2db4eb7-3ce5-47e9-ba59-5483bca86234",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.6957831325301205,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.708,
+          "value": 9,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "a2db4eb7-3ce5-47e9-ba59-5483bca86234",
+      "path": [
+        "position",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.708,
+          "value": 2.46310283436663,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "a2db4eb7-3ce5-47e9-ba59-5483bca86234",
+      "path": [
+        "position",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.708,
+          "value": 19.1246097805855,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "a2db4eb7-3ce5-47e9-ba59-5483bca86234",
+      "path": [
+        "position",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.708,
+          "value": -0.04878676852591,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "5aacbbe9-756a-474e-b180-9c9f88a03e95",
+      "path": [
+        "position",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.132,
+          "value": 1.7811531000493,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "5aacbbe9-756a-474e-b180-9c9f88a03e95",
+      "path": [
+        "position",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.132,
+          "value": 16.8646216600209,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "5aacbbe9-756a-474e-b180-9c9f88a03e95",
+      "path": [
+        "position",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.132,
+          "value": -2.06213397498086,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "5aacbbe9-756a-474e-b180-9c9f88a03e95",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.132,
+          "value": 14,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.2173694779116466,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "5aacbbe9-756a-474e-b180-9c9f88a03e95",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.132,
+          "value": 14,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.2173694779116466,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "5aacbbe9-756a-474e-b180-9c9f88a03e95",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.132,
+          "value": 14,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.2173694779116466,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "5aacbbe9-756a-474e-b180-9c9f88a03e95",
+      "path": [
+        "rotation",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.132,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "5aacbbe9-756a-474e-b180-9c9f88a03e95",
+      "path": [
+        "rotation",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.132,
+          "value": -0.3468409126378884,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "5aacbbe9-756a-474e-b180-9c9f88a03e95",
+      "path": [
+        "rotation",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.132,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "9f314ceb-de9c-4958-98f6-189f7a9d447a",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4342369477911647,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.44126506024096385,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.45431726907630526,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46937751004016065,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5065261044176707,
+          "value": 77.37002991609447,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.523,
+          "value": 77.37002991609447,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5517068273092369,
+          "value": 49.84702633220168,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6335341365461846,
+          "value": 49.84702633220168,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6335341365461847,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6445783132530121,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6576305220883534,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7108433734939759,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "9f314ceb-de9c-4958-98f6-189f7a9d447a",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 57.4093190137777,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4342369477911647,
+          "value": 57.4093190137777,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.44126506024096385,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.45431726907630526,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46937751004016065,
+          "value": 50,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5065261044176707,
+          "value": 38.68501495804723,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.523,
+          "value": 38.68501495804723,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5517068273092369,
+          "value": 24.92351316610084,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6335341365461846,
+          "value": 24.92351316610084,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6335341365461847,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6445783132530121,
+          "value": 57.4093190137777,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6576305220883534,
+          "value": 57.4093190137777,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7108433734939759,
+          "value": 57.4093190137777,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "9f314ceb-de9c-4958-98f6-189f7a9d447a",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4342369477911647,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.44126506024096385,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.45431726907630526,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46937751004016065,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5065261044176707,
+          "value": 77.37002991609447,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.523,
+          "value": 77.37002991609447,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5517068273092369,
+          "value": 49.84702633220168,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6335341365461846,
+          "value": 49.84702633220168,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6335341365461847,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6445783132530121,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6576305220883534,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7108433734939759,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "9f314ceb-de9c-4958-98f6-189f7a9d447a",
+      "path": [
+        "position",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 3.3558613136775044,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4342369477911647,
+          "value": 3.3558613136775044,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4553212851405622,
+          "value": -131.47515477511607,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46937751004016065,
+          "value": -131.47515477511607,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5065261044176707,
+          "value": -129.47270581187874,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.523,
+          "value": -129.47270581187874,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5517068273092369,
+          "value": -133.34466759788046,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6335341365461846,
+          "value": -133.34466759788046,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6445783132530121,
+          "value": 3.3558613136775044,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6576305220883534,
+          "value": 7.077838373637013,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7108433734939759,
+          "value": 5.59961827151864,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "9f314ceb-de9c-4958-98f6-189f7a9d447a",
+      "path": [
+        "position",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 22.94066677003675,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4342369477911647,
+          "value": 22.9406667700367,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4553212851405622,
+          "value": 1.1141120601574357,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46937751004016065,
+          "value": 1.1141120601574357,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5065261044176707,
+          "value": -65.46241446448153,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.523,
+          "value": -65.46241446448153,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5517068273092369,
+          "value": -144.64303451578584,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6335341365461846,
+          "value": -144.64303451578584,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6445783132530121,
+          "value": 22.9406667700367,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6576305220883534,
+          "value": 19.144990511324963,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7108433734939759,
+          "value": 25.547865220532554,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "9f314ceb-de9c-4958-98f6-189f7a9d447a",
+      "path": [
+        "position",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": -9.5568195833664,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4342369477911647,
+          "value": -9.5568195833664,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.4553212851405622,
+          "value": -225.14253028471308,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46937751004016065,
+          "value": -225.14253028471308,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5065261044176707,
+          "value": -216.081549317419,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.523,
+          "value": -216.081549317419,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5517068273092369,
+          "value": -204.18412701425657,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6335341365461846,
+          "value": -204.18412701425657,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6445783132530121,
+          "value": -9.5568195833664,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6576305220883534,
+          "value": -9.5568195833664,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7108433734939759,
+          "value": -9.5568195833664,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "9f314ceb-de9c-4958-98f6-189f7a9d447a",
+      "path": [
+        "rotation",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46937751004016065,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5065261044176707,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.523,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5517068273092369,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6335341365461846,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6576305220883534,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7108433734939759,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "9f314ceb-de9c-4958-98f6-189f7a9d447a",
+      "path": [
+        "rotation",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46937751004016065,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5065261044176707,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.523,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5517068273092369,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6335341365461846,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6576305220883534,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7108433734939759,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "9f314ceb-de9c-4958-98f6-189f7a9d447a",
+      "path": [
+        "rotation",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0,
+          "value": 0.22689280275926285,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.46937751004016065,
+          "value": 0.22689280275926285,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5065261044176707,
+          "value": 0.22689280275926285,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.523,
+          "value": 0.22689280275926285,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5517068273092369,
+          "value": 0.22689280275926285,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6335341365461846,
+          "value": 0.22689280275926285,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.6576305220883534,
+          "value": 0.22689280275926285,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.7108433734939759,
+          "value": 0.22689280275926285,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "a0d8b55e-7d8a-4432-aa59-a1b9af326ad3",
+      "path": [
+        "scale",
+        "x"
+      ],
+      "keys": [
+        {
+          "time": 0.5354411014788373,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5405405405405406,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "a0d8b55e-7d8a-4432-aa59-a1b9af326ad3",
+      "path": [
+        "scale",
+        "y"
+      ],
+      "keys": [
+        {
+          "time": 0.5354411014788373,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5405405405405406,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    },
+    {
+      "target": "a0d8b55e-7d8a-4432-aa59-a1b9af326ad3",
+      "path": [
+        "scale",
+        "z"
+      ],
+      "keys": [
+        {
+          "time": 0.5354411014788373,
+          "value": 100,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        },
+        {
+          "time": 0.5405405405405406,
+          "value": 0,
+          "handles": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "interpolate": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "humanity-website-clone",
+  "version": "1.0.0",
+  "description": "High-fidelity clone of humanity.org with exact design, layout, assets, and typography.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "humanity",
+    "clone",
+    "website",
+    "design",
+    "framer"
+  ],
+  "author": "",
+  "license": "ISC"
+}
